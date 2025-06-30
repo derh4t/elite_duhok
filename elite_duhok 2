@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>النخبة دهوك | Elite Duhok - خدمات مميزة في دهوك</title>
+  <meta name="description" content="Elite Duhok - شركة رائدة في دهوك تقدم أفضل الخدمات">
+  <meta name="keywords" content="دهوك, Elite Duhok, خدمات دهوك, كردستان">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+    }
+    
+    body {
+      font-family: 'Tajawal', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      text-align: center;
+      padding: 20px;
+      min-height: 100vh;
+      margin: 0;
+    }
+    
+    .card {
+      background: #fff;
+      padding: 40px;
+      max-width: 700px;
+      margin: 30px auto;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .logo img {
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+    
+    .social-links {
+      margin: 30px 0;
+    }
+    
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      text-decoration: none;
+      color: white;
+      background-color: #0077b5;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+    
+    a.instagram { background-color: #E4405F; }
+    a.snapchat { background-color: #FFFC00; color: #000; }
+    a.tiktok { background-color: #000; }
+    a.phone { background-color: #25D366; }
+    
+    .contact-info {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 10px;
+    }
+    
+    .contact-info p {
+      margin: 10px 0;
+      color: #444;
+    }
+    
+    .map {
+      margin-top: 30px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+      
+      a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">
+      <img src="logo.png" alt="شعار Elite Duhok">
+    </div>
+    
+    <h1>مرحباً بكم في Elite Duhok</h1>
+    <p>نقدم لكم أفضل الخدمات في دهوك. تابعونا على منصات التواصل الاجتماعي أو تواصلوا معنا مباشرة:</p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/elite_duhok" class="instagram" target="_blank">
+        <i class="fab fa-instagram"></i> انستغرام
+      </a>
+      <a href="https://snapchat.com/t/JVrgfXL2" class="snapchat" target="_blank">
+        <i class="fab fa-snapchat-ghost"></i> سناب شات
+      </a>
+      <a href="https://www.tiktok.com/@elite_duhok" class="tiktok" target="_blank">
+        <i class="fab fa-tiktok"></i> تيك توك
+      </a>
+      <a href="tel:+9647508415006" class="phone">
+        <i class="fas fa-phone-alt"></i> الاتصال المباشر
+      </a>
+    </div>
+    
+    <div class="contact-info">
+      <h2>معلومات التواصل</h2>
+      <p><i class="fas fa-map-marker-alt"></i> دهوك، كردستان العراق</p>
+      <p><i class="fas fa-clock"></i> ساعات العمل: 8 صباحاً - 6 مساءً</p>
+    </div>
+    
+    <div class="map">
+      <iframe src="https://maps.google.com/maps?q=دهوك&output=embed" 
+              width="100%" height="300" frameborder="0" style="border:0"></iframe>
+    </div>
+  </div>
+</body>
+</html>
