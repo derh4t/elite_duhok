@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Elite Duhok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Tahoma', sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(0,0,0,0.7);
+            padding: 40px 20px;
+            max-width: 700px;
+            margin: auto;
+            margin-top: 50px;
+            border-radius: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 10px;
+        }
+        .instagram { background-color: #E4405F; }
+        .snapchat { background-color: #FFFC00; color: #000; }
+        .tiktok { background-color: #000000; }
+        .whatsapp { background-color: #25D366; }
+        .location { background-color: #4285F4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Elite Duhok Logo" style="width: 150px; margin-bottom: 20px;">
+        <h1>Elite Duhok</h1>
+        <p>متخصصون في كوارتز – بورسلين – سوني مرمر. بأحدث أجهزة.</p>
+        <div class="social-links">
+            <a class="instagram" href="https://www.instagram.com/elite_duhok" target="_blank">انستغرام</a>
+            <a class="snapchat" href="https://snapchat.com/t/JVrgfXL2" target="_blank">سناب شات</a>
+            <a class="tiktok" href="https://www.tiktok.com/@elite_duhok" target="_blank">تيك توك</a>
+            <a class="whatsapp" href="https://wa.me/9647508415006" target="_blank">واتساب</a>
+            <a class="location" href="https://maps.app.goo.gl/wSQ165ZpECE38S136?g_st=ipc" target="_blank">الموقع</a>
+        </div>
+    </div>
+</body>
+</html>
